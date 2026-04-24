@@ -1,0 +1,92 @@
+<!-- contact.html - Contact Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WorldCell — Join the Network</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500&family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo"><a href="index.html">WORLD<span>CELL</span> × INUKOVA</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <section class="contact-intro">
+        <p class="section-eyebrow">The First Node Is You</p>
+        <h2>Join the network</h2>
+        <p class="contact-subhead">Whether you're an organisation ready to become a licensed Cell, a leader with expertise to share, or a community seeking infrastructure — we're building with open doors.</p>
+      </section>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-map">
+            <svg viewBox="0 0 600 180" preserveAspectRatio="xMidYMid meet">
+              <circle cx="100" cy="90" r="4" fill="var(--accent)"/>
+              <text x="85" y="75" font-size="8" fill="var(--text-soft)" font-family="monospace">Nairobi</text>
+              <circle cx="300" cy="70" r="4" fill="var(--accent)"/>
+              <text x="285" y="55" font-size="8" fill="var(--text-soft)" font-family="monospace">Lagos</text>
+              <circle cx="480" cy="100" r="4" fill="var(--accent)"/>
+              <text x="465" y="85" font-size="8" fill="var(--text-soft)" font-family="monospace">Accra</text>
+              <circle cx="200" cy="130" r="3" fill="var(--accent)" opacity="0.6"/>
+              <circle cx="420" cy="140" r="3" fill="var(--accent)" opacity="0.6"/>
+              <path d="M100 90 L300 70 L480 100 L200 130 L420 140" stroke="var(--gray-border)" stroke-width="1" fill="none" stroke-dasharray="3 3"/>
+            </svg>
+          </div>
+          <div class="contact-details">
+            <p class="mono-label">Global presence</p>
+            <p>Nairobi · Lagos · Accra · The World<br>Virtual across 14 time zones</p>
+            <p class="mono-label" style="margin-top: 2rem;">Email</p>
+            <a href="mailto:hello@worldcell.network" class="contact-email">hello@worldcell.network</a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="#" method="post">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email address" required>
+            </div>
+            <div class="form-group">
+              <textarea rows="5" name="message" placeholder="Tell us how you'd like to contribute or partner..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send message →</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="contact-cta">
+        <div class="cta-block">
+          <h3>Become a Cell or partner with us</h3>
+          <p>Every organisation that adopts the Cell Protocol strengthens the whole. Whether you represent a foundation, a corporation, or a community trust — there is a place for you here.</p>
+          <div class="double-buttons">
+            <a href="#" class="btn-outline">Become a Cell</a>
+            <a href="#" class="btn-outline">Partner with Us</a>
+          </div>
+          <p class="cta-quote">“The time for later is over. The first node is you.”</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">WORLD<span>CELL</span> × INUKOVA</div>
+      <div class="footer-tagline">Human Infrastructure Network — Built for Everyone</div>
+    </div>
+  </footer>
+</body>
+</html>
